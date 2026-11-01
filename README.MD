@@ -13,6 +13,21 @@ Install Pygame by running:
 
     py -3.12 -m pip install pygame==2.6.1
 
+Project Files
+
+This project contains 8 Python files and one images folder:
+
+- game.py: Main entry point; manages game screens and transitions.
+- button.py: Defines reusable buttons.
+- story_data.py: Stores story events, choices, and outcomes.
+- story_event.py: Displays story events and handles choices.
+- ticket_game.py: Manages ticket purchasing and code verification.
+- train_game.py: Manages the high-speed train challenge.
+- lucky_wheel.py: Manages the lucky wheel mini-game.
+- save_data.py: Loads and saves endings and reaction records.
+
+The images folder contains 12 images for the required background and button images.
+
 How to Run
 
 1. Keep all Python files and the images folder together.
